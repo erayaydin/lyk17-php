@@ -1,0 +1,101 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #efefef;
+}
+
+.kutu {
+    width: 960px;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid silver;
+}
+
+.logo {
+    display: block;
+    width: 300px;
+    float: left;
+    margin-top: 13px;
+    margin-left: 10px;
+
+}
+
+header h1 img {
+    display: block;
+    width: 128px;
+    float: left;
+}
+
+.yenisatir {
+    clear: both;
+}
+
+header {
+    padding: 0 10px;
+}
+
+header h1 a {
+    color: #000;
+}
+
+header h1 {
+    float: left;
+    width: 450px;
+}
+
+.slogan {
+    background: lightblue;
+    float: right;
+    padding: 10px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+nav {
+    background: lightblue;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: block;
+    border-right: 1px solid blue;
+    float: left;
+}
+
+nav ul li a {
+    padding: 20px;
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background: #000;
+    color: #fff;
+}
+
+nav ul:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+nav ul li:first-child {
+    border-left: 1px solid blue;
+}
+
+
+
+
