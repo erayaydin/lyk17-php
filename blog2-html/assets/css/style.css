@@ -1,0 +1,32 @@
+body {
+    background: #efefef;
+}
+
+.slogan {
+    margin-top: 30px;
+    display: block;
+    font-size: 12px;
+}
+
+.logo a {
+    color: #000;
+}
+
+.logo a:hover {
+    text-decoration: none;
+}
+
+.yazi h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+body > footer {
+    background: #000;
+    color: #fff;
+    padding: 15px 0;
+}
+
+body > footer p {
+    margin: 0;
+}
